@@ -71,7 +71,7 @@ const DEVICES = {
 };
 
 const MAX_SITE_WIDTH = 100; // ft
-const API_BASE = 'http://localhost:3001/api';
+const API_BASE = 'http://0.0.0.0:3001/api';
 
 // ─── Utility Functions ────────────────────────────────────────────────────────
 function calcMetrics(counts) {

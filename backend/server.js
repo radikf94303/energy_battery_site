@@ -85,5 +85,5 @@ app.delete('/api/sessions/:id', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Battery Site API running on http://localhost:${PORT}`);
+  console.log(`Battery Site API running on http://0.0.0.0:${PORT}`);
 });
