@@ -1,0 +1,13 @@
+{
+  "name": "gridforge-battery-site-planner",
+  "version": "1.0.0",
+  "description": "Industrial Battery Site Layout Planner",
+  "scripts": {
+    "start": "npm run install:all && npm run start:all",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "start:all": "node start.js"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
