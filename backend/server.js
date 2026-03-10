@@ -5,7 +5,7 @@ const fs = require('fs');
 const path = require('path');
 
 const app = express();
-const PORT = 3001;
+const PORT_BACKEND = 3001;
 const SESSIONS_FILE = path.join(__dirname, 'sessions.json');
 
 app.use(cors());
@@ -84,6 +84,6 @@ app.delete('/api/sessions/:id', (req, res) => {
   res.json({ message: 'Session deleted' });
 });
 
-app.listen(PORT, () => {
-  console.log(`Battery Site API running on http://0.0.0.0:${PORT}`);
+app.listen(PORT_BACKEND, () => {
+  console.log(`Battery Site API running on http://0.0.0.0:${PORT_BACKEND}`);
 });
