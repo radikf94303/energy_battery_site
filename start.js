@@ -2,9 +2,9 @@ const { spawn } = require('child_process');
 const path = require('path');
 
 console.log('\n⚡ Tesla — Starting Industrial Battery Site Planner\n');
-console.log('Frontend PORT: $PORT\n');
-console.log('  Backend API  → http://0.0.0.0:3001');
-console.log('  Frontend App → http://0.0.0.0:$PORT\n');
+console.log('Frontend PORT: ${PORT}\n');
+console.log('  Backend API  → http://0.0.0.0:3001 ');
+console.log('  Frontend App → http://0.0.0.0:${PORT}\n');
 
 function run(cmd, args, cwd, label, color) {
   const proc = spawn(cmd, args, {
