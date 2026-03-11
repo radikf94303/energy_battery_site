@@ -14,4 +14,3 @@ This single command:
 2. Starts the **API backend** on http://0.0.0.0:3001
 3. Starts the **React frontend** on http://0.0.0.0:1000
 
-Open **http://0.0.0.0:8000** in your browser.
