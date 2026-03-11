@@ -502,7 +502,7 @@ export default function App() {
           <div className="logo">
             <span className="logo-icon">⚡</span>
             <div>
-              <div className="logo-title">GRIDFORGE</div>
+              <div className="logo-title">TESLA</div>
               <div className="logo-sub">INDUSTRIAL BATTERY SITE PLANNER</div>
             </div>
           </div>
