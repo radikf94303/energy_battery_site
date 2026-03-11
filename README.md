@@ -12,6 +12,6 @@ npm start
 This single command:
 1. Installs all dependencies (frontend + backend)
 2. Starts the **API backend** on http://0.0.0.0:3001
-3. Starts the **React frontend** on http://0.0.0.0:8000
+3. Starts the **React frontend** on http://0.0.0.0:1000
 
 Open **http://0.0.0.0:8000** in your browser.
